@@ -173,7 +173,9 @@
             Controls.Add(label3);
             Controls.Add(TBName);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Registration";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Реєстрація";
             ResumeLayout(false);
             PerformLayout();

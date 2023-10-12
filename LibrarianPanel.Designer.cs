@@ -113,7 +113,9 @@
             Controls.Add(BAdd);
             Controls.Add(LBBooks);
             Controls.Add(groupBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "LibrarianPanel";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Меню бібліотекаря";
             FormClosed += FClosed;
             ResumeLayout(false);

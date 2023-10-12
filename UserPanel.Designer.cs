@@ -153,6 +153,7 @@
             Controls.Add(groupBox2);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "UserPanel";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Особистий кабінет";
             FormClosed += FClosed;
             groupBox1.ResumeLayout(false);

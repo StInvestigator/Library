@@ -177,6 +177,7 @@
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "EditLibrarian";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Дані бібліотекаря";
             ResumeLayout(false);
             PerformLayout();

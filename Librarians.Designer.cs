@@ -115,6 +115,7 @@
             Controls.Add(groupBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Librarians";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Бібліотекарі";
             ResumeLayout(false);
         }

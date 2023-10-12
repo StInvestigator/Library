@@ -163,8 +163,9 @@
             Controls.Add(label2);
             Controls.Add(TBName);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "EditBook";
-            Text = "EditBook";
+            Text = "Редактор книги";
             ResumeLayout(false);
             PerformLayout();
         }

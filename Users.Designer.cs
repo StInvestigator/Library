@@ -87,6 +87,7 @@
             Controls.Add(groupBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Users";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Користувачі";
             ResumeLayout(false);
         }
